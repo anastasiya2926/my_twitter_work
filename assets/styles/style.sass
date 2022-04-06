@@ -1,0 +1,104 @@
+@import "lib/vars.scss"
+@import "lib/mixins.scss"
+@import "lib/fontface.scss"
+
+
+body
+  @apply bg-black
+
+// layout
+.twitter
+  @apply bg-black
+  @apply min-h-screen max-w-[1180px] w-full mx-auto
+  @apply grid grid-cols-[250px_1fr_350px] grid-rows-[auto_1fr]
+  @apply text-white
+
+  .logo
+    @apply mt-6
+
+  
+
+// logo
+.logo
+  svg
+    @apply mt-2
+
+// title
+.title
+  
+  @apply flex justify-between items-center text-xl font-bold
+  position: sticky
+  
+ 
+    
+      
+
+// search
+
+.search
+  @apply mt-6 text-xs ml-6
+  @apply flex justify-between items-center flex-row-reverse
+  @apply px-4 py-2 rounded-full
+  @apply bg-white bg-opacity-20
+  @apply outline-none
+  .icon
+    svg
+      @apply w-4 h-4
+  
+  .search_text
+    @apply bg-transparent text-gray-500
+
+// aside
+.aside
+  @apply bg-white bg-opacity-20
+  @apply mt-6 ml-6
+  @apply px-4 py-2 rounded-2xl
+  @apply h-fit
+  
+
+  .title
+    @apply mt-2
+
+  .aside_item
+    @apply flex items-center flex-row-reverse justify-end my-6
+    .icon
+      @apply mr-2
+      
+
+//menu
+.menu
+  .menu_items
+
+    .menu_item
+      @apply flex items-center flex-row-reverse justify-end my-6 
+      a
+        .icon
+          @apply mr-2
+
+        
+  .tweet
+    @apply px-10 py-2 rounded-full bg-violet-500 hover:bg-violet-400 font-semibold w-fit
+
+.feed
+  
+  @apply h-fit 
+  .post-sender
+    height: fit-content
+    display: flex
+    .feed
+      .tweet.inp
+        @apply mt-10
+  
+   
+.modalContainer
+  @apply hidden absolute rounded-full bg-slate-600
+  .modal-content
+    @apply bg-black m-auto p-10
+    .close
+      @apply font-bold text-xl hover:text-gray-600
+*
+
+  // border: 1px solid rgb(208, 161, 240) //
+
+
+  //width="24" height="24" fill="none" viewBox="0 0 24 24"//

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>mi_twitter</title>
+</head>
+
+<body>
+  <div class="twitter">
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path fill="#fff"
+          d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 002.048-2.578 9.3 9.3 0 01-2.958 1.13 4.66 4.66 0 00-7.938 4.25 13.229 13.229 0 01-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 003.96 9.824a4.647 4.647 0 01-2.11-.583v.06a4.66 4.66 0 003.737 4.568 4.692 4.692 0 01-2.104.08 4.661 4.661 0 004.352 3.234 9.348 9.348 0 01-5.786 1.995 9.5 9.5 0 01-1.112-.065 13.175 13.175 0 007.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 002.323-2.41l.002-.003z" />
+      </svg>
+
+    </div>
+    <div class="title sticky top-0 bg-black/80 px-1 py border-x border-gray-500">
+      <div class="title_content pl-2">Home</div>
+      <div class="title_icon pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path fill="#fff"
+            d="M22.772 10.506l-5.618-2.192-2.16-6.5a.751.751 0 00-1.424-.001l-2.16 6.5-5.62 2.192a.751.751 0 00.001 1.398l5.62 2.192 2.16 6.5a.752.752 0 001.424 0l2.16-6.5 5.62-2.192a.751.751 0 00-.001-1.397h-.002zm-6.49 2.32a.748.748 0 00-.44.46l-1.56 4.695-1.56-4.693a.753.753 0 00-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622.001-.002zM6.663 3.812h-1.88V2.05a.75.75 0 00-1.5 0v1.762H1.5a.75.75 0 000 1.5h1.782v1.762a.75.75 0 001.5 0V5.312h1.88a.75.75 0 100-1.5h.001zm2.535 15.622h-1.1v-1.016a.75.75 0 10-1.5 0v1.016H5.57a.75.75 0 000 1.5H6.6v1.016a.75.75 0 101.5 0v-1.016h1.098a.75.75 0 000-1.5z" />
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="search">
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 14 14">
+          <path fill="#AAA"
+            d="M12.56 11.94l-2.136-2.134a5.25 5.25 0 10-4.007 1.86 5.229 5.229 0 003.388-1.242l2.135 2.135a.44.44 0 00.618 0 .436.436 0 00.001-.618zM2.041 6.418a4.38 4.38 0 014.375-4.375 4.38 4.38 0 014.375 4.375 4.38 4.38 0 01-4.375 4.375 4.38 4.38 0 01-4.375-4.375z" />
+        </svg>
+
+      </div>
+      <label class="search_tweet">
+        <span class="sr-only">Search</span>
+        
+        <input class=" search_text cursor-text bg-transparent text-white border-none focus:outline-none" placeholder="Search for anything" type="text" name="search"/>
+      </label>
+    </div>
+
+    <div class="menu">
+      <div class="menu_items">
+        <div class="menu_item"> Home
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="#fff"
+                  d="M22.58 7.35L12.475 1.897a1 1 0 00-.95 0L1.425 7.35A1.002 1.002 0 001.9 9.231c.16 0 .324-.038.475-.12l.734-.396 1.59 11.25c.216 1.214 1.31 2.062 2.66 2.062h9.282c1.35 0 2.444-.848 2.662-2.088l1.588-11.225.737.398a1 1 0 00.95-1.759l.002-.003zM12 15.435a3.25 3.25 0 110-6.5 3.25 3.25 0 010 6.5z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+        <div class="menu_item"> Explore
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="#B8B8B8"
+                  d="M21 7.337h-3.93l.372-4.272a.751.751 0 00-.682-.812.752.752 0 00-.812.683l-.383 4.4h-6.32l.37-4.27a.75.75 0 00-.68-.813.751.751 0 00-.813.683l-.382 4.4H3.782a.75.75 0 000 1.5H7.61l-.55 6.327H3a.75.75 0 000 1.5h3.93l-.372 4.272a.751.751 0 00.682.812l.066.003a.75.75 0 00.746-.686l.383-4.4h6.32l-.37 4.27a.751.751 0 00.682.813l.066.003a.75.75 0 00.746-.686l.382-4.4h3.957c.413 0 .75-.337.75-.75a.752.752 0 00-.75-.75H16.39l.55-6.327H21a.75.75 0 000-1.5zm-6.115 7.826h-6.32l.55-6.326h6.32l-.55 6.326z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+        <div class="menu_item"> Notifications
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="#B8B8B8"
+                  d="M21.697 16.468c-.02-.016-2.14-1.64-2.103-6.03.02-2.532-.812-4.782-2.347-6.335C15.872 2.71 14.01 1.94 12.005 1.93h-.013c-2.004.01-3.866.78-5.242 2.174-1.534 1.553-2.368 3.802-2.346 6.334.037 4.33-2.02 5.967-2.102 6.03a.75.75 0 00.447 1.353h4.92c.102 2.31 1.997 4.16 4.33 4.16s4.226-1.85 4.327-4.16h4.922c.322 0 .61-.206.71-.514a.747.747 0 00-.263-.838l.002-.001zM12 20.478a2.84 2.84 0 01-2.828-2.658h5.656c-.1 1.48-1.323 2.66-2.828 2.66v-.002zM4.38 16.32c.74-1.132 1.548-3.028 1.524-5.896-.018-2.16.644-3.982 1.913-5.267C8.91 4.05 10.397 3.437 12 3.43c1.603.008 3.087.62 4.18 1.728 1.27 1.285 1.933 3.106 1.915 5.267-.024 2.868.785 4.765 1.525 5.896H4.38v-.001z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+        <div class="menu_item"> Messages
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="#B8B8B8"
+                  d="M19.25 3.018H4.75A2.753 2.753 0 002 5.77v12.495a2.754 2.754 0 002.75 2.753h14.5A2.754 2.754 0 0022 18.265V5.77a2.753 2.753 0 00-2.75-2.752zm-14.5 1.5h14.5c.69 0 1.25.56 1.25 1.25v.714l-8.05 5.367a.81.81 0 01-.9-.002L3.5 6.482v-.714c0-.69.56-1.25 1.25-1.25zm14.5 14.998H4.75c-.69 0-1.25-.56-1.25-1.25V8.24l7.24 4.83a2.265 2.265 0 002.52.001l7.24-4.83v10.022c0 .69-.56 1.25-1.25 1.25v.003z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+        <div class="menu_item"> Bookmarks
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="23" fill="none" viewBox="0 0 17 23">
+                <path fill="#B8B8B8"
+                  d="M0 2.875C0 2.113.299 1.381.83.842A2.813 2.813 0 012.833 0h11.334c.751 0 1.472.303 2.003.842.531.54.83 1.27.83 2.033v19.407a.728.728 0 01-.374.633.7.7 0 01-.727-.035L8.5 18.833 1.1 22.88a.702.702 0 01-1-.23.727.727 0 01-.1-.368V2.875zm2.833-1.437c-.375 0-.736.151-1.001.42-.266.27-.415.636-.415 1.017V20.94l6.69-3.568a.701.701 0 01.785 0l6.691 3.568V2.875c0-.381-.149-.747-.415-1.016a1.406 1.406 0 00-1.001-.421H2.833z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+
+        <div class="menu_item"> Profile
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="#B8B8B8"
+                  d="M12 11.816c1.355 0 2.872-.15 3.84-1.256.814-.93 1.078-2.368.806-4.392-.38-2.825-2.117-4.512-4.646-4.512S7.734 3.343 7.354 6.17c-.272 2.022-.008 3.46.806 4.39.968 1.107 2.485 1.256 3.84 1.256zM8.84 6.368c.162-1.2.787-3.212 3.16-3.212s2.998 2.013 3.16 3.212c.207 1.55.057 2.627-.45 3.205-.455.52-1.266.743-2.71.743s-2.255-.223-2.71-.743c-.507-.578-.657-1.656-.45-3.205zm11.44 12.868c-.877-3.526-4.282-5.99-8.28-5.99-3.998 0-7.403 2.464-8.28 5.99-.172.692-.028 1.4.395 1.94.408.52 1.04.82 1.733.82h12.304c.693 0 1.325-.3 1.733-.82.424-.54.567-1.247.394-1.94h.001zm-1.576 1.016c-.126.16-.316.246-.552.246H5.848c-.235 0-.426-.085-.552-.246a.753.753 0 01-.12-.654c.71-2.855 3.517-4.85 6.824-4.85s6.114 1.994 6.824 4.85c.06.242.017.48-.12.654z" />
+              </svg>
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+
+        <div class="menu_item"> More
+          <a href="#">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 22 22">
+                <path fill="#B8B8B8"
+                  d="M16 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM11 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM6 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                <path fill="#B8B8B8"
+                  d="M11 21.75C5.072 21.75.25 16.928.25 11S5.072.25 11 .25 21.75 5.072 21.75 11 16.928 21.75 11 21.75zm0-20C5.9 1.75 1.75 5.9 1.75 11S5.9 20.25 11 20.25s9.25-4.15 9.25-9.25S16.1 1.75 11 1.75z" />
+              </svg>
+
+            </div>
+            <div class="label">
+
+            </div>
+          </a>
+        </div>
+        <button id="btnModal" class="tweet_modal px-10 py-2 rounded-full bg-violet-500 hover:bg-violet-400 font-semibold w-fit">
+          Tweet
+        </button>
+        <div id="myModal" class="modalContainer">
+          <div class="modal-content">
+          <span class="close cursor-pointer">×</span> 
+          <div class="tweet_modal flex border-b border-gray-500">
+            <div class="bubble">
+              <img src="assets/images/mypic.svg" alt="">
+            </div>
+            <div class="content w-full ml-4 ">
+              <form class="new" name="new">
+                <textarea placeholder="What's happening?" class="bg-transparent text-xl focus:outline-none w-full"></textarea>
+                <div class="content_footer mb-8 flex items-center justify-between mt-6">
+                  <div class="content_menu flex items-center space-x-4">
+                    <div class="content_menu_item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                        <path fill="#4A99E9"
+                          d="M13.99 1.917H3.01c-.878 0-1.593.715-1.593 1.593v10.98c0 .878.715 1.593 1.593 1.593h10.98c.878 0 1.593-.715 1.593-1.593V3.51c0-.878-.715-1.593-1.593-1.593zM3.01 2.979h10.98c.292 0 .53.239.53.531v6.854l-2.732-2.733a.53.53 0 00-.375-.155h-.002a.524.524 0 00-.377.158L7.976 10.74 6.692 9.46a.53.53 0 00-.376-.155c-.136-.022-.28.056-.379.16L2.48 12.996V3.51c0-.292.239-.53.531-.53zm-.527 11.532l3.838-3.92 4.45 4.43H3.01a.53.53 0 01-.528-.51zm11.507.51h-1.715L8.73 11.488l2.686-2.727 3.106 3.106v2.623a.532.532 0 01-.531.53z" />
+                        <path fill="#4A99E9" d="M6.282 7.478a1.092 1.092 0 100-2.185 1.092 1.092 0 000 2.185z" />
+                      </svg>
+                    </div>
+                    <div class="content_menu_item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                        <path fill="#4A99E9"
+                          d="M13.458 7.938V6.732h-3.116v4.534h1.204V9.85h1.417V8.646h-1.417v-.709h1.912zm-5.17-1.205h1.204v4.534H8.287V6.733zm-2.55 1.134c.283 0 .637.141.85.354l.85-.708a2.263 2.263 0 00-1.7-.78A2.238 2.238 0 003.47 9c0 1.275.991 2.267 2.266 2.267.709 0 1.275-.284 1.7-.78v-1.77H5.454v.85h.85v.425c-.142.07-.354.141-.567.141A1.119 1.119 0 014.604 9c0-.567.496-1.133 1.133-1.133z" />
+                        <path fill="#4A99E9"
+                          d="M14.52 1.93H2.48c-.88 0-1.595.714-1.595 1.592v10.985c0 .877.716 1.59 1.594 1.59h12.042c.878 0 1.594-.714 1.594-1.59V3.522c0-.878-.716-1.591-1.594-1.591zm.532 12.577a.53.53 0 01-.531.528H2.479a.53.53 0 01-.531-.528V3.522a.53.53 0 01.531-.529h12.042a.53.53 0 01.531.53v10.984z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="content_tweet">
+                    <button type="submit" class="px-10 py-2 rounded-full bg-violet-500 hover:bg-violet-400 font-semibold">
+                      Tweet
+                    </button>
+                  </div>
+                </div>
+                
+    
+    
+              </form>
+              
+            </div>
+          </div> </div>
+          </div>
+      </div>
+    </div>
+
+    <main class="feed p-4 border-x border-gray-500">
+      <div class="tweet_in flex border-b border-gray-500">
+        <div class="bubble">
+          <img src="assets/images/mypic.svg" alt="">
+        </div>
+        <div class="content w-full ml-4 ">
+          <form class="new" name="new">
+            <textarea placeholder="What's happening?" class="bg-transparent text-xl focus:outline-none w-full"></textarea>
+            <div class="content_footer mb-8 flex items-center justify-between mt-6">
+              <div class="content_menu flex items-center space-x-4">
+                <div class="content_menu_item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                    <path fill="#4A99E9"
+                      d="M13.99 1.917H3.01c-.878 0-1.593.715-1.593 1.593v10.98c0 .878.715 1.593 1.593 1.593h10.98c.878 0 1.593-.715 1.593-1.593V3.51c0-.878-.715-1.593-1.593-1.593zM3.01 2.979h10.98c.292 0 .53.239.53.531v6.854l-2.732-2.733a.53.53 0 00-.375-.155h-.002a.524.524 0 00-.377.158L7.976 10.74 6.692 9.46a.53.53 0 00-.376-.155c-.136-.022-.28.056-.379.16L2.48 12.996V3.51c0-.292.239-.53.531-.53zm-.527 11.532l3.838-3.92 4.45 4.43H3.01a.53.53 0 01-.528-.51zm11.507.51h-1.715L8.73 11.488l2.686-2.727 3.106 3.106v2.623a.532.532 0 01-.531.53z" />
+                    <path fill="#4A99E9" d="M6.282 7.478a1.092 1.092 0 100-2.185 1.092 1.092 0 000 2.185z" />
+                  </svg>
+                </div>
+                <div class="content_menu_item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                    <path fill="#4A99E9"
+                      d="M13.458 7.938V6.732h-3.116v4.534h1.204V9.85h1.417V8.646h-1.417v-.709h1.912zm-5.17-1.205h1.204v4.534H8.287V6.733zm-2.55 1.134c.283 0 .637.141.85.354l.85-.708a2.263 2.263 0 00-1.7-.78A2.238 2.238 0 003.47 9c0 1.275.991 2.267 2.266 2.267.709 0 1.275-.284 1.7-.78v-1.77H5.454v.85h.85v.425c-.142.07-.354.141-.567.141A1.119 1.119 0 014.604 9c0-.567.496-1.133 1.133-1.133z" />
+                    <path fill="#4A99E9"
+                      d="M14.52 1.93H2.48c-.88 0-1.595.714-1.595 1.592v10.985c0 .877.716 1.59 1.594 1.59h12.042c.878 0 1.594-.714 1.594-1.59V3.522c0-.878-.716-1.591-1.594-1.591zm.532 12.577a.53.53 0 01-.531.528H2.479a.53.53 0 01-.531-.528V3.522a.53.53 0 01.531-.529h12.042a.53.53 0 01.531.53v10.984z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="content_tweet">
+                <button type="submit" class="px-10 py-2 rounded-full bg-violet-500 hover:bg-violet-400 font-semibold">
+                  Tweet
+                </button>
+              </div>
+            </div>
+            
+
+
+          </form>
+          
+        </div>
+      </div>
+      <div class="tweets">
+
+      </div>
+
+      <div class="feed_tweet">
+        <div class="tweet_container px-4 py-2 border-b border-gray-500  ">
+          <div class="profile  items-start mt-6 space-x-2 ">
+            <div class="profile_pic rounder-full">
+              <img src="assets/images/unsplash_umfpFoKxIVg.svg" alt="">
+            </div>
+            <div class="user items-start mt-6  ">
+              <div class="user_name text-gray-500">dd</div>
+              <div class="user_at text-gray-500">dff</div>
+              <div class="user_time text-gray-500">df</div>
+            </div>
+          </div>
+          <div class="tweet flex ml-2">
+            <div class="tweet_content text">
+              <p>Hola,exte es mi tweet</p>
+            </div>
+          </div>
+
+          <div class="content_footer flex items-end justify-between mt-2">
+            <div class="content_menu flex place-items-end ">
+              <div class="user_comments">
+                <div class="number ">5</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                  <path fill="#606060"
+                    d="M10.534 1.681l-3.11-.007h-.002c-3.28 0-5.85 2.57-5.85 5.851 0 3.074 2.39 5.405 5.599 5.528v2.871c0 .081.033.215.09.302a.558.558 0 00.775.172c.198-.126 4.855-3.105 6.066-4.13 1.427-1.207 2.28-2.977 2.282-4.734v-.012c-.004-3.276-2.572-5.84-5.85-5.841zm2.84 9.73c-.85.72-3.646 2.553-5.078 3.482v-2.39a.562.562 0 00-.563-.563h-.297c-2.745 0-4.738-1.857-4.738-4.414 0-2.651 2.076-4.727 4.725-4.727l3.11.008h.002c2.649 0 4.724 2.074 4.726 4.721-.002 1.433-.706 2.884-1.885 3.883h-.001z" />
+                </svg>
+              </div>
+              <div class="user_retweets">
+                <div class="number ">6</div>
+                
+                
+                <div class="button_rts">
+                  <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="14" fill="none" 
+                  viewBox="0 0 18 14">
+                  <path fill="#606060"
+                    d="M17.828 9.752a.562.562 0 00-.796 0l-1.665 1.665v-7.68A2.816 2.816 0 0012.556.925H8.168a.563.563 0 000 1.125h4.387c.93 0 1.688.758 1.688 1.688v7.68l-1.665-1.665a.562.562 0 10-.795.794l2.625 2.625c.108.11.252.165.397.165a.555.555 0 00.398-.165l2.625-2.625a.56.56 0 000-.795zm-7.995 2.46H5.445a1.69 1.69 0 01-1.687-1.687v-7.68L5.423 4.51a.564.564 0 00.796 0 .562.562 0 000-.795L3.594 1.09a.56.56 0 00-.795 0L.174 3.715a.562.562 0 10.795.795l1.665-1.665v7.68a2.816 2.816 0 002.813 2.813h4.387a.563.563 0 000-1.125h-.001z" />
+                </svg>
+                </div>
+                
+                
+              </div>
+              <div class="user_likes">
+                <div class="number ">7</div>
+                <div class="button_likes">
+                  <svg class="button_likes " xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                  viewBox="0 0 18 18">
+                  <path fill="#606060"
+                    d="M9 16.229h-.01c-1.938-.037-7.527-5.087-7.527-9.87 0-2.298 1.893-4.316 4.052-4.316 1.717 0 2.872 1.185 3.484 2.047.61-.86 1.766-2.047 3.484-2.047 2.16 0 4.053 2.018 4.053 4.316 0 4.782-5.59 9.833-7.528 9.868H9v.002zM5.516 3.168c-1.56 0-2.928 1.49-2.928 3.191 0 4.305 5.276 8.697 6.413 8.744 1.138-.047 6.412-4.438 6.412-8.744 0-1.7-1.367-3.191-2.927-3.191-1.896 0-2.955 2.202-2.964 2.224-.172.421-.867.421-1.04 0-.01-.023-1.069-2.224-2.966-2.224z" />
+                </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="aside">
+      <div class="title">Trending topic</div>
+      <div class="content">
+        <div class="aside_item">Term 01
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+              <path fill="#B8B8B8"
+                d="M15.75 5.503h-2.947l.278-3.204a.563.563 0 00-1.12-.097l-.287 3.3h-4.74L7.21 2.3a.563.563 0 10-1.12-.098l-.286 3.3H2.837a.563.563 0 000 1.125h2.87l-.412 4.745H2.25a.563.563 0 000 1.125h2.947l-.279 3.204a.563.563 0 00.512.61l.05.002a.563.563 0 00.559-.515l.287-3.3h4.74l-.277 3.203a.564.564 0 00.511.61l.05.002a.563.563 0 00.56-.515l.286-3.3h2.968a.564.564 0 000-1.125h-2.871l.412-4.745h3.045a.563.563 0 000-1.125zm-4.586 5.87h-4.74l.412-4.745h4.74l-.412 4.744z" />
+            </svg>
+
+          </div>
+          <div class="label"></div>
+        </div>
+        <div class="aside_item">Term 02
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 18 18">
+              <path fill="#B8B8B8"
+                d="M15.75 5.503h-2.947l.278-3.204a.563.563 0 00-1.12-.097l-.287 3.3h-4.74L7.21 2.3a.563.563 0 10-1.12-.098l-.286 3.3H2.837a.563.563 0 000 1.125h2.87l-.412 4.745H2.25a.563.563 0 000 1.125h2.947l-.279 3.204a.563.563 0 00.512.61l.05.002a.563.563 0 00.559-.515l.287-3.3h4.74l-.277 3.203a.564.564 0 00.511.61l.05.002a.563.563 0 00.56-.515l.286-3.3h2.968a.564.564 0 000-1.125h-2.871l.412-4.745h3.045a.563.563 0 000-1.125zm-4.586 5.87h-4.74l.412-4.745h4.74l-.412 4.744z" />
+            </svg>
+          </div>
+          <div class="label"></div>
+        </div>
+        <div class="aside_item">Term 03
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 18 18">
+              <path fill="#B8B8B8"
+                d="M15.75 5.503h-2.947l.278-3.204a.563.563 0 00-1.12-.097l-.287 3.3h-4.74L7.21 2.3a.563.563 0 10-1.12-.098l-.286 3.3H2.837a.563.563 0 000 1.125h2.87l-.412 4.745H2.25a.563.563 0 000 1.125h2.947l-.279 3.204a.563.563 0 00.512.61l.05.002a.563.563 0 00.559-.515l.287-3.3h4.74l-.277 3.203a.564.564 0 00.511.61l.05.002a.563.563 0 00.56-.515l.286-3.3h2.968a.564.564 0 000-1.125h-2.871l.412-4.745h3.045a.563.563 0 000-1.125zm-4.586 5.87h-4.74l.412-4.745h4.74l-.412 4.744z" />
+            </svg>
+          </div>
+          <div class="label"></div>
+        </div>
+        <div class="aside_item"> Term 04
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 18 18">
+              <path fill="#B8B8B8"
+                d="M15.75 5.503h-2.947l.278-3.204a.563.563 0 00-1.12-.097l-.287 3.3h-4.74L7.21 2.3a.563.563 0 10-1.12-.098l-.286 3.3H2.837a.563.563 0 000 1.125h2.87l-.412 4.745H2.25a.563.563 0 000 1.125h2.947l-.279 3.204a.563.563 0 00.512.61l.05.002a.563.563 0 00.559-.515l.287-3.3h4.74l-.277 3.203a.564.564 0 00.511.61l.05.002a.563.563 0 00.56-.515l.286-3.3h2.968a.564.564 0 000-1.125h-2.871l.412-4.745h3.045a.563.563 0 000-1.125zm-4.586 5.87h-4.74l.412-4.745h4.74l-.412 4.744z" />
+            </svg>
+          </div>
+          <div class="label"></div>
+        </div>
+        <div class="aside_item"> Term 05
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+              viewBox="0 0 18 18">
+              <path fill="#B8B8B8"
+                d="M15.75 5.503h-2.947l.278-3.204a.563.563 0 00-1.12-.097l-.287 3.3h-4.74L7.21 2.3a.563.563 0 10-1.12-.098l-.286 3.3H2.837a.563.563 0 000 1.125h2.87l-.412 4.745H2.25a.563.563 0 000 1.125h2.947l-.279 3.204a.563.563 0 00.512.61l.05.002a.563.563 0 00.559-.515l.287-3.3h4.74l-.277 3.203a.564.564 0 00.511.61l.05.002a.563.563 0 00.56-.515l.286-3.3h2.968a.564.564 0 000-1.125h-2.871l.412-4.745h3.045a.563.563 0 000-1.125zm-4.586 5.87h-4.74l.412-4.745h4.74l-.412 4.744z" />
+            </svg>
+          </div>
+          <div class="label"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/app/main.js"></script>
+</body>
+
+</html>

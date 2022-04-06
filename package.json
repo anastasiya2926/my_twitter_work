@@ -1,0 +1,24 @@
+{
+  "name": "vitejs_boiler",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/",
+    "preview": "vite preview",
+    "deploy": "sh deploy.sh",
+    "clean": "rm -rf docs && rm -rf node_modules && rm yarn.lock && rm package-lock.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "dotenv": "^10.0.0",
+    "postcss": "^8.4.12",
+    "precss": "^4.0.0",
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "modern-css-reset": "^1.4.0",
+    "phosphor-icons": "^1.4.2"
+  }
+}
